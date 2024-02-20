@@ -71,6 +71,7 @@ jobs:
         env:
           NUXT_PUBLIC_STUDIO_API_URL: https://dev-api.nuxt.studio
           NUXT_PUBLIC_STUDIO_TOKENS: 35e78e27dc12e22eb36908f634c7ea96c0f21f169dfa54792956e345f06f0fec
+          NUXT_UI_PRO_LICENSE: ${{ secrets.NUXT_UI_PRO_LICENSE }}
 
 
       # Deployment job
